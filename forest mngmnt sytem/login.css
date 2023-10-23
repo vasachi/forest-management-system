@@ -1,0 +1,27 @@
+body{
+background-position:center;	
+align-items:center;
+}
+
+button{
+cursor:pointer;
+text-decoration:none;
+padding:6px 16px;
+font-size:18px;
+color:white;
+background-color:green;
+border:0;
+outline:0;
+font-family:helvetica;
+border-radius:5px;
+}
+
+button:hover{
+background-color:red;
+color:black;
+}
+
+button a{
+text-decoration:none;
+color:white;
+}

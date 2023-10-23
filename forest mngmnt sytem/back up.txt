@@ -1,0 +1,54 @@
+	<tr> 
+				$sql="select users.name, 
+	from users
+	where users.userid='name'
+	and paymentdetails.ward_location,paymentdetails.phoneNo,paymentdetails.method_of_payment,paymentdetails.date_of_payment,paymentdetails.type_of_sevice,paymentdetails.amount_paid";
+				 
+				 
+	$query="select*from users";
+	$result=mysqli_query($query);
+	while($rows=mysqli_fetch_array($result)){    
+	$userid=$rows['id'];
+	$rowsdata=$rows['name'];
+	?>
+	<option  value="<?php echo $userid;?>"> <?php echo $rowsdata;?> </option>
+	<?php
+	}	
+	?>
+				
+$sql="select * from users";
+   $result=mysqli_query($con,$sql);
+     while($rows=mysqli_fetch_array($result)){{
+        $num=mysqli_num_rows($result);
+      if($num>0){
+          //echo"user exist";
+		 $user=1;
+  }
+  
+  $ward_location=$rows1['ward_location'];
+	$phoneNo=$rows1['phoneNo'];
+	$method_of_payment=$rows1['method_of_payment'];
+	$date_of_payment=$rows1['date_of_payment'];
+	$type_of_service=$rows1['type_of_service'];
+	$amount_paid=$rows1['amount_paid'];
+	
+	where users.userid='name'
+	and users.location='location'
+	
+	 $location=$rows1['location'];
+	 
+	 <td><?php echo $location;?></td>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
